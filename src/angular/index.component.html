@@ -1,0 +1,8 @@
+<div style="margin-top: 100px;">
+  <h1>See the Employee List Below:</h1>
+
+  <div *ngFor="let employee of employeeList" class="employee-name">
+    <span>Employee Name: </span><b>{{employee.name}}</b><br><br>
+    <input type="button" (click)="showEmployeeDetails(employee.name)" value="Click To Fetch Details" />
+  </div>
+</div>
