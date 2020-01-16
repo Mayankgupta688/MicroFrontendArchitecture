@@ -15,7 +15,7 @@
     "ts-loader": "^2.3.2",
     "typescript": "^2.4.2",
     "webpack": "^3.4.1",
-    "webpack-dev-server": "^2.8.2"
+    "webpack-dev-server": "^3.1.11"
   },
   "dependencies": {
     "@angular/common": "^4.3.3",
