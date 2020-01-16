@@ -16,7 +16,7 @@ export default class Root extends React.Component {
     e.on('received', this.messageHandler)
   }
 
-  componentDidUnmount() {
+  componentWillUnmount() {
     e.off('received', this.messageHandler)
   }
 
@@ -37,7 +37,7 @@ export default class Root extends React.Component {
       return (
         <div>
           <h1>Employee Name: {selectedEmployee.name}</h1>
-          <div>Employee Id: {selectedEmployee.id}</div>
+          <div>Employee Identification: {selectedEmployee.id}</div>
         </div>
       )
     } else {

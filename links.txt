@@ -1,0 +1,1 @@
+https://ivanjov.com/micro-frontends-how-i-built-a-spa-with-angular-and-react/
