@@ -11,7 +11,7 @@ const domElementGetter = () => {
     document.body.appendChild(el)
   }
 
-  return el
+  return el;
 }
 
 const reactLifecycles = singleSpaReact({
